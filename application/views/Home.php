@@ -32,7 +32,6 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
     <![endif]-->
 </head>
-
 <body>
          <!-- NAV SECTION -->
          <div class="navbar navbar-inverse navbar-fixed-top">
@@ -45,17 +44,7 @@
                     <span class="icon-bar"></span>
                 </button>
             
-            </div>
-            <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="admin">ADMINISTRATOR</a></li>
-                     <li><a href="recieving">RECIEVING</a></li>
-                       <li><a href="production">PRODUCTION</a></li>
-                    <li><a href="sales">SALES</a></li>
-                </ul>
-            </div>
-           
+            </div>           
         </div>
     </div>
      <!--END NAV SECTION -->
@@ -65,14 +54,8 @@
 
     <div class="container"  >
         <div class="row text-center">
-            <div  class="col-md-12" > 
-                <br>
-                <p>$$$ worth of materials on hand: <b>${worthOfMaterialsAvailable}</b></p>
-                <p>$$$ worth of stock for sale: <b>${worthOfProductsStocked}</b></p>
-                <p># of different supplies available: <b>{uniqueSuppliesAvailable}</b></p>
-                <p># of different products stocked: <b>{uniqueProductsStocked}</b></p>
-                <p># of recipes known: <b>{recipesKnown}</b></p>
-               
+            <div class="col-md-12" > 
+                <h1 style="color: white"> Server Has Started! </h1>               
             </div>
             <div class="col-md-12 col-sm-12">
               
