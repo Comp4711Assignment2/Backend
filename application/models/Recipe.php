@@ -92,6 +92,6 @@ class Recipe extends CI_Model{
 	// retrieve all of the quotes
 	public function all()
 	{
-		return $this->data;
+            return $this->data;
 	}
 }
